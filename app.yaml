@@ -1,11 +1,1 @@
-runtime: php55
-
-handlers: 
-- url: /styles
-  static_dir: styles
-
-- url: /images/(.*\.(gif|png|jpg))
-  upload: images/(.*\.(gif|png|jpg))
-
-- url: /.*
-  script: index.php
+runtime: nodejs10
